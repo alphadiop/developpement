@@ -1,0 +1,9 @@
+import  os
+imprimer(os.getcwd())
+
+imprimer(os.listdir(os. getcwd())
+
+https://python.doctor/page-editeurs-python-gratuits-payants-ide 
+Editeur de texte
+PyCharm est le meilleur IDE tout simplement. 
+Sa version gratuite est très complète et répond à tous les besoins d'un développeur python.

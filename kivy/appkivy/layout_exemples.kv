@@ -1,0 +1,198 @@
+<LayoutExemplesTabs@TabbedPanel>:
+    do_default_tab:False
+    TabbedPanelItem:
+        text:"Widget"
+        MainVidget:
+    TabbedPanelItem:
+        text:"Box"
+        BoxLayoutExemple:
+    #TabbedPanelItem:
+        #text:"ScrollView"
+        #ScrollViewExemple:
+    TabbedPanelItem:
+        text:"Stack"
+        StackLayoutExemple:
+    TabbedPanelItem:
+        text:"Anchor"
+        AnchorLayoutExemple:
+    TabbedPanelItem:
+        text:"PageLayout"
+        PageLayoutExemple:
+    TabbedPanelItem:
+        text:"Grid"
+        GridLayoutExemple:
+
+
+#PageLayoutExemple: # interface principale
+<PageLayoutExemple@PageLayout>:
+    MainVidget:
+    BoxLayoutExemple:
+        canvas.before:
+            Color:
+                rgb:0,0,1
+            Rectangle:
+                size:self.size
+                pos:self.pos
+    AnchorLayoutExemple:
+        canvas.before:
+            Color:
+                rgb:0,0,1
+            Rectangle:
+                size:self.size
+                pos:self.pos
+    GridLayoutExemple:
+        canvas.before:
+            Color:
+                rgb:0,0,1
+            Rectangle:
+                size:self.size
+                pos:self.pos
+
+#ScrollViewExemple:
+<ScrollViewExemple@ScrollView>:
+    StackLayoutExemple:
+        size_hint:1,None
+        height:self.minimum_height
+
+
+#StackLayoutExemple:
+<StackLayoutExemple>:
+    # "left-right,top-bottom"
+    orientation:"lr-tb"
+    # gauche haut droite bas
+    padding:("20dp","20dp","20dp","20dp")
+    spacing:"20dp","20dp" # horizontage, verticale
+    Button:
+        text:"A"
+        size_hint:.1,.1
+    Button:
+        text:"B"
+        size_hint:.1,.1
+    Button:
+        text:"C"
+        size_hint:.1,.1
+    Button:
+        text:"D"
+        size_hint:.1,.1
+
+
+
+
+#GridLayoutExemple:
+<GridLayoutExemple@GridLayout>:# si l'on a pas besoin de creer du code Python
+    rows:2
+    cols :2
+    Button:
+        text:"A"
+    Button:
+        text:"B"
+    Button:
+        text:"C"
+    Button:
+        text:"D"
+
+
+
+#AnchorLayoutExemple:
+<AnchorLayoutExemple>:
+    # right,left,center
+    # bottom,top,center
+    anchor_x:"center"
+    anchor_y:"top"
+    BoxLayout
+        size_hint:.1,.1 # .1 veut dire 10%
+        Button:
+            text:"A"
+        Button:
+            text:"B"
+        Button:
+            text:"C"
+        Button:
+            text:"D"
+
+
+#BoxLayoutExemple:
+<BoxLayoutExemple>:
+    orientation : "vertical"
+    Button:
+        text:"A"
+        size_hint:None,None
+        width:"100dp"
+        height:"60dp"
+    Button:
+        size_hint:None,None
+        size : "100dp","60dp"
+        text:"B"
+    Button:
+        size_hint:1,0.5
+        text:"C"
+    Button:
+        size_hint:.5,None
+        height:"60dp"
+        text:"D"
+    Button:
+        size_hint:None,0.5
+        width:"100dp"
+        text:"E"
+    Button:
+        size_hint:.75,1
+        # x,right,center_x
+        # y,top,center_y
+        pos_hint:{"x":.5}
+        text:"F"
+    Button:
+        size_hint:.5,1
+        # x,right,center_x
+        # y,top,center_y
+        # pos_hint:{"right":.5}
+        text:"G"
+    Button:
+        text:"H"
+        size_hint:.5,.5
+        # x,right,center_x
+        # y,top,center_y
+        pos_hint:{"center_x":.5}
+    Button:
+        text:"I"
+        size_hint:.5,.5
+        # x,right,center_x
+        # y,top,center_y
+        pos_hint:{"right":.5}
+    Button:
+        text:"J"
+        size_hint:.5,.5
+        # x,right,center_x
+        # y,top,center_y
+        pos_hint:{"x":.5}
+    BoxLayout:
+        orientation:"horizontal"
+        Button:
+            text:"A1"
+        Button:
+            text:"A2"
+        Button:
+            text:"A3"
+
+
+# MainVidget:
+<MainVidget>:
+    Button:
+        text:"Hello"
+        size : "80dp","90dp"
+        pos: "100dp","50dp"
+        color:1,0,0,1
+    Button:
+        text:"Hello2"
+        size : "80dp","90dp"
+        pos: "200dp","50dp"
+        color:0,1,0,1
+    Button:
+        text:"Hello3"
+        size : "80dp","90dp"
+        pos: "300dp","50dp"
+        color:0,0,1,1
+    Label:
+        text:"Hello4"
+        size : "80dp","90dp"
+        pos: "400dp","50dp"
+        color:0,0,1,0.6

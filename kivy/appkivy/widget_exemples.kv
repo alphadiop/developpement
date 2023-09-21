@@ -1,0 +1,77 @@
+
+#ImagesExemple
+<ImagesExemple@GridLayout>
+    cols:3
+    Image:
+        source:"images/cake.jpg"
+    Image:
+        source:"images/cake.jpg"
+        allow_stretch:True
+    Image:
+        source:"images/cake.jpg"
+        keep_ratio:False # garder aspect de image
+    #Image:
+        # source:"images/donut.gif"
+        # anim_delay:1/60
+
+#WidgetsExemple: # un exemple important
+<WidgetsExemple>:
+    cols:3
+    ToggleButton:
+        text:"OFF"
+        on_state:root.on_toggle_button_state(self)
+        size_hint:None,1
+        width:"100dp"
+    Button:
+        text:"compter"
+        on_press:root.on_button_click()
+        disabled:not root.compteur_actif
+    Label:
+        text:root.mon_texte
+        font_name:"fonts/Lcd.ttf"
+        font_size:"80dp"
+        color:1,0.5,1,1
+    Switch:
+        id:mon_switch
+        on_active:root.on_switch_activate(self)
+        size_hint:None,1
+        width:"100dp"
+        active:True # demmarer le switch en position "ON"
+    Slider:
+        # size_hint:1,1
+        # width:"100dp"
+        min:0
+        max:100
+        value:50
+        on_value:root.on_slider_value(self)
+        orientation:"vertical"
+        disabled:not mon_switch.active # mon_switch actif (position ON) alors faut descativer le slider (inactif) ===
+    Label:
+        text:root.slider_value_txt
+    Slider:
+        id:mon_slider
+        min:0
+        max:100
+        value:50
+        orientation:"vertical"
+        disabled:not mon_switch.active
+    BoxLayout:
+        orientation:"vertical"
+        Label:
+            text:str(int(mon_slider.value))
+        ProgressBar:
+            min:0
+            max:100
+            value:mon_slider.value # on donne la valeur de slider à progressBar
+    TextInput:
+        id:my_text_input
+        size_hint:None,None
+        height:"40dp"
+        width:"100dp"
+        text:"toto"
+        multiline:False
+        on_text_validate : root.on_text_validate(self) # methode Python
+    Label:
+        text:root.text_input_str #proprieté en valeur de class
+
+

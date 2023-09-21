@@ -1,0 +1,100 @@
+#:import layout_exemples layout_exemples
+#:import widget_exemples widget_exemples
+#:import navigation_screen_manager navigation_screen_manager
+#:import boxlayout_with_action_bar boxlayout_with_action_bar
+#:import canvas_exemples canvas_exemples
+
+# StackLayoutExemple:
+# ImagesExemple:
+# MyScreenManager:
+
+<MenuPrincipal@BoxLayout>:# veut dire que la classe MenuPrincipal herite de BoxLayout
+    orientation:"vertical"
+    Button:
+        text:"Layout"
+        on_press:app.manager.push("PageLayoutExemple")
+    Button:
+        text:"Widget"
+        on_press:app.manager.push("WidgetsExemple")
+    Button:
+        text:"Images"
+        on_press:app.manager.push("ImagesExemple")
+    Button:
+        text:"Tab"
+        on_press:app.manager.push("LayoutExemplesTabs")
+    Button:
+        text:"Canvas"
+        on_press:app.manager.push("CanvasExemplesTabs") # attention "Exemples" est un écran à definir dans MyScreenManager
+
+
+<MyScreenManager>:
+    Screen:
+        name:"MenuPrincipal"
+        MenuPrincipal: # appelle de ma classe "MenuPrincipal" heritant de BoxLayout
+    Screen:
+        name:"WidgetsExemple"
+        BoxLayoutWithActionBar:# developper cote python
+            title:"Widgets"
+            WidgetsExemple:
+    Screen:
+        name:"PageLayoutExemple"
+        BoxLayoutWithActionBar:# developper cote python
+            title:"Layout"
+            PageLayoutExemple:
+    Screen:
+        name:"ImagesExemple"
+        BoxLayoutWithActionBar:# developper cote python
+            title:"Images"
+            ImagesExemple:
+    Screen:
+        name:"LayoutExemplesTabs"
+        BoxLayoutWithActionBar:# developper cote python
+            title:"Tab"
+            LayoutExemplesTabs:
+    Screen:
+        name:"CanvasExemplesTabs"
+        BoxLayoutWithActionBar:# developper cote python
+            title:"Canvas"
+            CanvasExemplesTabs:# appelle de la classe CanvasExemplesTabs definie dans "canvas_exemples.kv" comme etant l'écran principale
+# ====================================================================================================================
+    Screen:
+        name:"Screen1"
+        BoxLayout:
+            Button:
+                text:"aller vers écran2"
+                on_press:app.manager.push("Screen2")
+            Button:
+                text:"aller vers écran3"
+                on_press:app.manager.push("Screen3")
+            Button:
+                text:"aller vers ImagesExemples"
+                on_press:app.manager.push("ImagesExemples")
+            Button:
+                text:"aller vers ImagesExemple2"
+                on_press:app.manager.push("ImagesExemple2")
+
+    Screen:
+        name:"ImagesExemples3"
+        BoxLayout:
+            orientation:"vertical"
+            ActionBar:
+                ActionView:
+                    ActionPrevious:
+                        title:"Images"
+                        on_release:app.manager.pop()
+                        app_icon:"images/lab_logo.png"
+                        app_icon_height:"28dp"
+                        app_icon_width:"28dp"
+            ImagesExemple:
+
+    Screen:
+        name:"Screen2"
+        Button:
+            text:"Button2"
+            on_press:app.manager.pop()
+    Screen:
+        name:"Screen3"
+        Button:
+            text:"Button3"
+            on_press:app.manager.pop()
+

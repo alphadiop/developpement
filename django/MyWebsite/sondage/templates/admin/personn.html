@@ -1,0 +1,11 @@
+{% for t in form %}
+    <tr>
+    <th class="center-align" scope="row"><i class="small material-icons green">check</i></th>
+    <td class="center-align">{{t.id}}</td>
+    <td class="center-align">{{t.full_name}}</td>
+    <td class="center-align">{{t.email}}</td>
+    <td class="center-align">{{t.title}}</td>
+    <td class="center-align">{{t.city}} </td>
+    </tr>
+{% endfor %}
+

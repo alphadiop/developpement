@@ -1,0 +1,13 @@
+h1,li{
+    color:#DD7835;
+}
+body {
+    background:url("images/vtc.png") no-repeat;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center fixed;
+}
+#small_logo {
+    margin-top:35px;
+    margin-left:35px;
+}

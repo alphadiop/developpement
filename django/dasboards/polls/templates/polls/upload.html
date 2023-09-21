@@ -1,0 +1,9 @@
+{% load static %}
+{% block content %}
+    <h2>Televersement de fichier </h2>
+	<form enctype="multipart/form-data" action="/upload/" name="test" method="post"> 
+		{% csrf_token %}
+		{{form.as_p}}
+    <input id="signUpSubmit" type="submit" value="Submit">
+	</form>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% load static %}
+
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{% static 'menu/css/style.css' %}">
+        <title> Client VTC </title>
+    </head>
+    <body>
+        <img id = "small_logo" src = "{% static 'menu/images/logo.png' %}">
+        <h1> les clients </h1>
+        <u>
+            {% for client in clients %}
+                <li> {{ client.user_name }} : {{ client.user_email }} </li>
+            {% endfor %}
+        </u>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background:url("images/vtc.png") no-repeat;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center fixed;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+    display:block;
+    text-align:center;
+}
+
+#small_logo {
+    margin-top:35px;
+    margin-left:35px;
+}
