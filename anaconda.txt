@@ -1,2 +1,21 @@
 conda create --name applications
 conda activate applications
+
+Créer et utiliser notre repo GIT
+se placer sur le repertoire
+Ouvrir un terminal
+
+
+ajouter notre repo sur GitHub
+
+
+
+git config --global user.name "alphadiop"
+git config --global user.email "alphadiop@gmail.com"
+git config --global user.email
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https
