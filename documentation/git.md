@@ -45,6 +45,8 @@ cliquer sur developer settings
 aller dans Personal access token
 git remote add origin https://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@github.com/alphadiop/applications.git
 
+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
+
 
 partager le repo avec quelqu'un d'autres
 vous lui donnez : https://github.com/alphadiop/applications
