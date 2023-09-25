@@ -1,5 +1,5 @@
-#C:\Users\alpha\OneDrive\PROJET_DJANGO\dasboards\polls\urls.py
-#polls/urls.py
+#C:\Users\alpha\OneDrive\PROJET_DJANGO\dasboards\polls\urls_taxi.py
+#polls/urls_taxi.py
 from django.urls import path
 from . import views
 

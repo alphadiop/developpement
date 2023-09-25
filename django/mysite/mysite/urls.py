@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 # """
 # L’étape suivante est de faire pointer la configuration d'URL racine 
-# vers le module polls.urls. Dans mysite/urls.py, ajoutez une importation django.urls.include 
+# vers le module polls.urls. Dans mysite/urls_taxi.py, ajoutez une importation django.urls.include
 # et insérez un appel include() dans la liste urlpatterns, ce qui donnera
 #diop
 #Ibrahima1

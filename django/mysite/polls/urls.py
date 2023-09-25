@@ -1,4 +1,4 @@
-#dans le fichier polls/urls.py 
+#dans le fichier polls/urls_taxi.py
 from django.urls import path
 from . import views
 from polls.views import home_view, export_data, import_data

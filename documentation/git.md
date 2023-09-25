@@ -4,6 +4,7 @@ conda activate applications
 
 
 
+
 git config --global user.name "alphadiop"
 git config --global user.email "alphadiop@gmail.com"
 git config --global user.email

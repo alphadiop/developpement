@@ -9,7 +9,8 @@ def indexes(request):
     clients_names_and_email_str = ",".join(clients_names_and_email)
     return HttpResponse("les clients : {0}".format(clients_names_and_email_str))
 
+#<a href = "/menu"> Voir le menu </a>
 
 def index(request):
     clients = Booking.objects.all()
-    return render(request,"menu/index.html",{"clients":clients})
+    return render(request,template_name="menu/index.html",context={"clients":clients})

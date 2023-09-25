@@ -11,17 +11,29 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 #====
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "social_core.backends.github.GithubOAuth2",
+]
 BOOKING_TITLE = "Your title"
 BOOKING_DESC = "Your description"
 BOOKING_BG = "images/booking_bg.jpg"
 BOOKING_SUCCESS_REDIRECT_URL = "Success redirect url"
 BOOKING_DISABLE_URL = "Redirect to this url if create booking is disable"
+
+#========================Users=========================================================================================
+
+LOGOUT_REDIRECT_URL = "main:dashboard"
+LOGIN_REDIRECT_URL = "main:dashboard"
+SOCIAL_AUTH_GITHUB_KEY = os.environ.get("SOCIAL_AUTH_GITHUB_KEY")
+SOCIAL_AUTH_GITHUB_SECRET = os.environ.get("SOCIAL_AUTH_GITHUB_SECRET")
+#======================================================================================================================
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -39,6 +51,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     "widget_tweaks",
+    "social_django",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -48,6 +61,10 @@ INSTALLED_APPS = [
     "menu.apps.MenuConfig",
     "main.apps.MainConfig",
     "booking.apps.BookingConfig",
+    "taxi.apps.TaxiConfig",
+    "vtc.apps.VtcConfig",
+    "vmdtr.apps.VmdtrConfig",
+    "users.apps.UsersConfig",
 ]
 
 MIDDLEWARE = [

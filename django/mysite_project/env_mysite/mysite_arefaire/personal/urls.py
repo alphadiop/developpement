@@ -1,5 +1,5 @@
 # Create your views here.
-#personal/urls.py:
+#personal/urls_taxi.py:
 from django.conf.urls import url
 from . import views
 

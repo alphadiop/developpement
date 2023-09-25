@@ -13,7 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-#"C:\Users\alpha\OneDrive\PROJET_DJANGO\dasboards\dasboards\urls.py"
+#"C:\Users\alpha\OneDrive\PROJET_DJANGO\dasboards\dasboards\urls_taxi.py"
 #https://pythonexamples.org/python-opencv/
 #Username:alpha
 #Paword: admin

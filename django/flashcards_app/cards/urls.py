@@ -1,4 +1,4 @@
-# cards/urls.py
+# cards/urls_taxi.py
 
 from django.urls import path
 # Removed: from django.views.generic import TemplateView

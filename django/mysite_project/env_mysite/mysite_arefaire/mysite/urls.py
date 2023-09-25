@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-#mysite/urls.py
+#mysite/urls_taxi.py
 from django.conf.urls import url
 from django.contrib import admin
 

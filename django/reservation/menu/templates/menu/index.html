@@ -7,8 +7,12 @@
         <title> Client VTC </title>
     </head>
     <body>
-        <img id = "small_logo" src = "{% static 'menu/images/logo.png' %}">
-        <h1> les clients </h1>
+        <div class = "logo">
+            <a href="{% url 'main:index' %}">
+                <img id = "small_logo" src = "{% static 'main/images/logo.png' %}">
+            </a>
+        </div>
+        <h1> Page Menu </h1>
         <u>
             {% for client in clients %}
                 <li> {{ client.user_name }} : {{ client.user_email }} </li>

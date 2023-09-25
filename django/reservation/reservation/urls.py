@@ -22,7 +22,12 @@ from django.urls import path,include
 urlpatterns = [
     path("", include("main.urls")),
     path("admin/", admin.site.urls),
-    path("booking/", include("booking.urls")),
-    path("menu/", include("menu.urls")),
     path("api/", include("booking.api_urls")),
+    path("booking/",include("booking.urls")),
+    path("menu/", include("menu.urls_menu")),
+    path("taxi/", include("taxi.urls_taxi")),
+    path("vmdtr/", include("vmdtr.urls_vmdtr")),
+    path("vtc/", include("vtc.urls_vtc")),
+
 ]
+#<a href = "/menu"> Voir le menu </a>

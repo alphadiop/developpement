@@ -233,7 +233,7 @@ def detail(request, question_id):
 	
 
 # # pour appeler cette vue, il faut l'associer à une URL, et pour cela nous avons besoin d'un uRLconf
-# # Pour créer un URLconf dans le repertoire polls, créez un fichier nommé urls.py.
+# # Pour créer un URLconf dans le repertoire polls, créez un fichier nommé urls_taxi.py.
 
 ########################################################################################
 

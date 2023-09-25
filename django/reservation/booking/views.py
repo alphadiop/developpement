@@ -1,8 +1,8 @@
 from django.core import serializers
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
-from booking.models import Booking
-from booking.forms import BookingForm
+from .models import Booking
+from .forms import BookingForm
 from django.http import HttpResponseRedirect
 
 # Create your views here.
@@ -46,10 +46,10 @@ from django.urls import reverse_lazy
 from django.views.generic import (DeleteView, ListView, TemplateView,UpdateView, View)
 from formtools.wizard.views import SessionWizardView
 
-from booking.forms import (BookingCustomerForm, BookingDateForm,BookingSettingsForm, BookingTimeForm)
-from booking.models import Booking, BookingSettings
-from booking.settings import (BOOKING_BG, BOOKING_DESC, BOOKING_DISABLE_URL,BOOKING_SUCCESS_REDIRECT_URL, BOOKING_TITLE,PAGINATION)
-from booking.utils import BookingSettingMixin
+from .forms import (BookingCustomerForm, BookingDateForm,BookingSettingsForm, BookingTimeForm)
+from .models import Booking, BookingSettings
+from .settings import (BOOKING_BG, BOOKING_DESC, BOOKING_DISABLE_URL,BOOKING_SUCCESS_REDIRECT_URL, BOOKING_TITLE,PAGINATION)
+from .utils import BookingSettingMixin
 
 
 # # # # # # #
