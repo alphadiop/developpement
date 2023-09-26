@@ -1,9 +1,0 @@
-pip install pyexcel-xls
-pip install pyexcel-xls
-pip install pyexcel-xlsx
-pip install pyexcel-ods
-
-pip install django-excel
-
-pip install django-crispy-forms
-pip install django-filter

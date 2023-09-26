@@ -55,7 +55,7 @@ python anywhere
 compte utilisateur : aoudiop
 Email: alphadiop@gmail.com
 Mdp : Ibrahima@1diop
-
+url du site : https://aoudiop.pythonanywhere.com/
 url du site : aoudiop.pythonanywhere.com
 
 ALLOWED_HOSTS = ["aoudiop.pythonanywhere.com"]
