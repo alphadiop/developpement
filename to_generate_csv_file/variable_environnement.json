@@ -1,0 +1,11 @@
+[
+{"variable":"odbc_driver","valeur":"ODBC Driver 17 for SQL Server"},
+{"variable":"server_parametrage","valeur":"ff"},
+{"variable":"server_parametrage","valeur":"ff"},
+{"variable":"dw_gersit","valeur":{"server": "localhost\\SQLEXPRESS", "database": "master", "user": "alphadiop", "password": "Ibrahima1", "port": "1433"}},
+{"variable":"path_dw","valeur":"C:\\\\Users\\alpha\\PycharmProjects"},
+{"variable":"schema","valeur":"C:\\\\Users\\falpha\\PycharmProjects"},
+{"variable":"log","valeur":"C:\\\\Users\\falpha\\PycharmProjects\\log"},
+{"variable":"data","valeur":"C:\\\\Users\\falpha\\PycharmProjects\\data_python"},
+{"variable":"source","valeur":"C:\\\\Users\\falpha\\PycharmProjects\\script"}
+]

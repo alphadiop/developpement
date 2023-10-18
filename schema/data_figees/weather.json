@@ -1,0 +1,10 @@
+{
+  "location":{
+    "sql_type":"VARCHAR(100)",
+    "nullable":"NOT NULL"
+  },
+  "weather":{
+    "sql_type":"VARCHAR(100)",
+    "nullable":"NOT NULL"
+  }
+}

@@ -1,0 +1,4 @@
+#__init__.py
+
+from .get_variable_environnement import get_variable_environnement
+from .load_variable_environnement import load_variable_environnement

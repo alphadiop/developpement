@@ -1,0 +1,26 @@
+{
+  "Periode":{
+    "sql_type":"INT",
+    "nullable":"NULL"
+  },
+  "Var":{
+    "sql_type":"DECIMAL(19,5)",
+    "nullable":"NULL"
+  },
+  "Skew":{
+    "sql_type":"DECIMAL(19,5)",
+    "nullable":"NULL"
+  },
+  "Curt":{
+    "sql_type":"DECIMAL(19,5)",
+    "nullable":"NULL"
+  },
+  "Entropy":{
+    "sql_type":"DECIMAL(19,5)",
+    "nullable":"NULL"
+  },
+  "Class":{
+    "sql_type":"NVARCHAR(100)",
+    "nullable":"NOT NULL"
+  }
+}
