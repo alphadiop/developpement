@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import requests
 
 def download_file(url):

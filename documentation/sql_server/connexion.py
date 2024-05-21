@@ -40,3 +40,11 @@ if __name__=="__main__":
     #     df.to_sql(name='basquet_ball', con=engine, if_exists='append', index=False, chunksize=1000)
     # conn.close()
     #*******************************************************************************************************************
+
+    # ******************************************************************************************************************
+    # with engine.connect() as conn:
+    #     path = r"C:\Users\alpha\Downloads"
+    #     df = pd.read_csv(os.path.join(path,"SP500.csv"))
+    #     df.to_sql(name='SP500', con=engine, if_exists='append', index=False, chunksize=1000)
+    # conn.close()
+    #*******************************************************************************************************************

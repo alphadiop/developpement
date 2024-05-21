@@ -99,7 +99,7 @@ GO
 
 select top 10 *
 from openrowset(
-    bulk 'D:/data/petrol_consumption.csv',
+    bulk r'D:/data/petrol_consumption.csv',
     format = 'csv',
     parser_version = '3.0',
     firstrow = 2 ) as rows
