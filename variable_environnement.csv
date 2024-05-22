@@ -1,0 +1,14 @@
+variable,valeur
+odbc_driver,ODBC Driver 17 for SQL Server
+odbc_driver_,ODBC Driver 13 for SQL Server
+dw_gersit_,"{'server': 'DIOP\\SQLEXPRESS;port', 'database': 'message', 'user': 'alphadiop', 'password': 'Ibrahima1', 'port': '1433'}"
+dw_gersit,"{'server': 'localhost\\SQLEXPRESS', 'database': 'Menage', 'user': 'alphadiop', 'password': 'Ibrahima1', 'port': '1433'}"
+path_dw,D:\dataDw
+schema,C:\\Users\alpha\OneDrive\developpement\schema
+log,C:\\Users\alpha\OneDrive\developpement\log
+data,C:\\Users\alpha\OneDrive\developpement\data_python
+source,C:\\Users\alpha\OneDrive\developpement\script
+pilotage,C:\\Users\alpha\OneDrive\developpement\pilotage
+data_figees,D:\data_figees
+calls,C:\\Users\alpha\OneDrive\developpement\calls
+

@@ -1,0 +1,152 @@
+:root {
+  --color1: #ff665E;
+  --color2:#6C6864;
+  --color3:#212529;
+
+}
+
+
+body{
+    min-width:360px;
+    margin-left:0;
+    margin-right:0;
+
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+h1{
+    text-align:center;
+    color:var(--color1);
+
+}
+h2{
+    font-family: Georgia, serif;
+    font-size:28px;
+    font-weight: 500;
+    color:var(--color1);
+    margin-top:0;
+    margin-bottom:8px;
+}
+div.separateur {
+    background-color: #979797;
+    opacity: .1;
+    height: 2px;
+    width: 100%;
+    margin:20px 0px 0px;
+
+
+
+}
+div.separateur_2{
+    background-color: #979797;
+    opacity: .2;
+    height: 2px;
+    width: 100%;
+    margin-bottom:15px;
+    margin-top:38px;
+}
+div.ensemble{
+    margin-top:0px;
+    margin-left:25%;
+    margin-right:25%;
+    padding-left:15px;
+    padding-right:15px;
+    min-width:360px;
+}
+div.section{
+    margin-top:80px;
+
+}
+div.section_bottom{
+    margin-top:80px;
+    margin-bottom:300px;
+
+}
+.nom{
+    font-weight:bold;
+    color:var(--color2);
+    font-family: Georgia, serif;
+    font-size:16px;
+    padding-left:0.75rem;
+    display:inline-block;
+    width:350px
+
+}
+
+.prix{
+    color:var(--color1);
+    font-size:16px;
+    display:inline-block;
+    margin-left:8px;
+    width:198px;
+    text-align:right;
+    vertical-align: top;
+}
+.origin{
+    color:var(--color3);
+    display:block;
+    padding-left:0.75rem;
+    margin-bottom:16px;
+
+
+}
+.commentaire{
+    color:var(--color3);
+    display:block;
+    padding-left:0.75rem;
+    margin-bottom:16px;
+}
+
+
+
+div.frame_position{
+    position: fixed;
+    height:60px;
+    bottom: 0px;
+    width: 100%;
+    background-color:#ff665E;
+}
+a{
+    font-size:16px;
+    color:white;
+    text-decoration: none;
+    margin-left:1.5%;
+    font-family: Georgia, serif;
+}
+/* -----------------For 2200>768:---------------------------------------- */
+
+@media only screen and (max-width: 1250px) {
+
+    .nom{
+        width:120px
+    }
+
+
+
+    .commentaire{
+        width:200px;
+    }
+
+}
+/* -----------------For mobile <=768:---------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+
+
+div.ensemble{
+    margin-top:0px;
+    margin-left:0;
+    margin-right:0;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+
+}
+

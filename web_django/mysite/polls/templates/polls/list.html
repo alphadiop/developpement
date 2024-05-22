@@ -1,0 +1,12 @@
+{# polls/list.html #}
+{% load render_table from django_tables2 %}
+{% load static %}
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+    </head>
+    <body>
+        {% render_table istekler %}
+    </body>
+</html>

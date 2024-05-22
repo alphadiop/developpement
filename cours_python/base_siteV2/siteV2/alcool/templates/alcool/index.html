@@ -1,0 +1,74 @@
+{%extends "alcool/base.html"%}
+
+
+
+{%block content %}
+<div class="ensemble">
+    <h2>Coktail</h2>
+    <div class="section">
+        {% for coktail  in coktails %}
+        <div  class="separateur_2"></div>
+        <span class="nom">{{coktail.nom_objet }}</span>
+        <span class="prix"> {{coktail.prix |floatformat:2}}€</span>
+        <span class="ingredient">{{coktail.ingredient }}</span>
+        <span class="origine">{{coktail.origine }}</span>
+        <span class="commentaire">{{coktail.commentaire }}</span>
+          {%endfor%}
+    </div>
+
+
+
+    <h2>Spiritueux</h2>
+    <div class="section">
+        {% for spiritueu  in spiritueux %}
+        <div  class="separateur_2"></div>
+        <span class="nom">{{spiritueu.nom_objet }}</span>
+        <span class="prix"> {{spiritueu.prix |floatformat:2}}€</span>
+        <span class="ingredient">{{spiritueu.ingredient }}</span>
+        <span class="origine">{{spiritueu.origine }}</span>
+        <span class="commentaire">{{spiritueu.commentaire }}</span>
+          {%endfor%}
+    </div>
+
+
+
+    <h2>Coktail sans alcools</h2>
+    <div class="section">
+        {% for coktails_sans_alcool  in coktails_sans_alcools %}
+        <div  class="separateur_2"></div>
+        <span class="nom">{{coktails_sans_alcool.nom_objet }}</span>
+        <span class="prix"> {{coktails_sans_alcool.prix |floatformat:2}}€</span>
+        <span class="ingredient">{{coktails_sans_alcool.ingredient }}</span>
+        <span class="origine">{{coktails_sans_alcool.origine }}</span>
+        <span class="commentaire">{{coktails_sans_alcool.commentaire }}</span>
+          {%endfor%}
+    </div>
+
+
+
+    <h2>Vins rouges</h2>
+    <div class="section">
+        {% for vins_rouge  in vins_rouges %}
+        <div  class="separateur_2"></div>
+        <span class="nom">{{vins_rouge.nom_objet }}</span>
+        <span class="prix"> {{vins_rouge.prix |floatformat:2}}€</span>
+        <span class="ingredient">{{vins_rouge.ingredient }}</span>
+        <span class="origine">{{vins_rouge.origine }}</span>
+        <span class="commentaire">{{vins_rouge.commentaire }}</span>
+          {%endfor%}
+    </div>
+
+
+    <h2>Vins blancs</h2>
+    <div class="section_bottom">
+        {% for vins_blanc  in vins_blancs %}
+        <div  class="separateur_2"></div>
+        <span class="nom">{{vins_blanc.nom_objet }}</span>
+        <span class="prix"> {{vins_blanc.prix |floatformat:2}}€</span>
+        <span class="ingredient">{{vins_blanc.ingredient }}</span>
+        <span class="origine">{{vins_blanc.origine }}</span>
+        <span class="commentaire">{{vins_blanc.commentaire }}</span>
+          {%endfor%}
+    </div>
+</div>
+{% endblock content %}

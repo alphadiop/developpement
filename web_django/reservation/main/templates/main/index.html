@@ -1,0 +1,26 @@
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les clients VTC </title>
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+</head>
+<body>
+        <div class="col_navi">
+          <ul class="sidebar-nav">
+            <li> <a href="{% url 'menu:index' %}"> Page Menu </a> </li>
+            <li> <a href="{% url 'taxi:index' %}"> Page Taxi </a> </li>
+            <li> <a href="{% url 'vmdtr:index' %}"> Page vmdtr </a> </li>
+          </ul>
+        </div>
+
+    <div class = "centered">
+        <a href="{% url 'vtc:index' %}">
+            <img id = "small_logo" src = "{% static 'main/images/logo.png' %}">
+        </a>
+    </div>
+
+
+
+</body>
+</html>

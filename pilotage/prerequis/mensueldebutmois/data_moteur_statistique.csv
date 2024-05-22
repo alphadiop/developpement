@@ -1,0 +1,4 @@
+Periodicite,Moteur,Source,SourcePeriodicite,Table,Profondeur
+mensueldebutmois,rfsotc,rfsotc,hebdo,referentiel/rfeta,1
+mensueldebutmois,sognow,sognow,hebdo,sognow,1
+mensueldebutmois,stocks_extrapoles,stocks,mensueldebutmois,memosf,1

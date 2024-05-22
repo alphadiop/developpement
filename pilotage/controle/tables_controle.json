@@ -1,0 +1,658 @@
+{
+  "univers": {
+    "schema": "univers",
+    "table": {
+      "production": "[CONTROLE].[con].[Univers]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "paneliste": {
+    "schema": "paneliste",
+    "table": {
+      "production": "[CONTROLE].[con].[Paneliste]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "referentiel_presentations": {
+    "schema": "referentiel_presentations",
+    "table": {
+      "production": "[CONTROLE].[con].[ReferentielPresentations]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "achats": {
+    "schema": "achats",
+    "table": {
+      "production": "[CONTROLE].[con].[Achats]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "ventes": {
+    "schema": "ventes",
+    "table": {
+      "production": "[CONTROLE].[con].[Ventes]",
+      "relance": "[CONTROLE].[con].[VentesRelance]"
+    },
+    "version": ""
+  },
+  "pmgtg": {
+    "schema": "pmgtg",
+    "table": {
+      "production": "[CONTROLE].[con].[Pmgtg]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "pdv_indic": {
+    "schema": "pdv_indic",
+    "table": {
+      "production": "[CONTROLE].[con].[Pdv_Indic]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "travelling_uga_uga": {
+    "schema": "travelling_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingUGA]",
+      "relance": "[CONTROLE].[con].[TravellingUGARelance]"
+    },
+    "version": "uga"
+  },
+  "travelling_uga_produit_uga": {
+    "schema": "travelling_uga_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingUGAProduit]",
+      "relance": "[CONTROLE].[con].[TravellingUGAProduitRelance]"
+    },
+    "version": "uga"
+  },
+  "travelling_uga_departement": {
+    "schema": "travelling_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingUGA]",
+      "relance": "[CONTROLE].[con].[TravellingUGARelance]"
+    },
+    "version": "departement"
+  },
+  "travelling_uga_produit_departement": {
+    "schema": "travelling_uga_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingUGAProduit]",
+      "relance": "[CONTROLE].[con].[TravellingUGAProduitRelance]"
+    },
+    "version": "departement"
+  },
+  "travelling_uga_france": {
+    "schema": "travelling_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingUGA]",
+      "relance": "[CONTROLE].[con].[TravellingUGARelance]"
+    },
+    "version": "france"
+  },
+  "travelling_uga_produit_france": {
+    "schema": "travelling_uga_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingUGAProduit]",
+      "relance": "[CONTROLE].[con].[TravellingUGAProduitRelance]"
+    },
+    "version": "france"
+  },
+  "repart_pharmacie_uga": {
+    "schema": "repart_pharmacie",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacie]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_pharmacie_produit_uga": {
+    "schema": "repart_pharmacie_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieProduit]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieProduitRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_pharmacie_departement": {
+    "schema": "repart_pharmacie",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacie]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_pharmacie_produit_departement": {
+    "schema": "repart_pharmacie_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieProduit]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieProduitRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_pharmacie_france": {
+    "schema": "repart_pharmacie",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacie]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieRelance]"
+    },
+    "version": "france"
+  },
+  "repart_pharmacie_produit_france": {
+    "schema": "repart_pharmacie_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieProduit]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieProduitRelance]"
+    },
+    "version": "france"
+  },
+  "repart_prescripteur_uga": {
+    "schema": "repart_prescripteur",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteur]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_prescripteur_produit_uga": {
+    "schema": "repart_prescripteur_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurProduit]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurProduitRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_prescripteur_departement": {
+    "schema": "repart_prescripteur",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteur]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_prescripteur_produit_departement": {
+    "schema": "repart_prescripteur_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurProduit]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurProduitRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_prescripteur_france": {
+    "schema": "repart_prescripteur",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteur]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurRelance]"
+    },
+    "version": "france"
+  },
+  "repart_prescripteur_produit_france": {
+    "schema": "repart_prescripteur_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurProduit]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurProduitRelance]"
+    },
+    "version": "france"
+  },
+  "repart_prescripteur_hopital_uga": {
+    "schema": "repart_prescripteur_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurHopital]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurHopitalRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_prescripteur_hopital_produit_uga": {
+    "schema": "repart_prescripteur_hopital_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurHopitalProduit]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurHopitalProduitRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_prescripteur_hopital_departement": {
+    "schema": "repart_prescripteur_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurHopital]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurHopitalRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_prescripteur_hopital_produit_departement": {
+    "schema": "repart_prescripteur_hopital_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurHopitalProduit]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurHopitalProduitRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_prescripteur_hopital_france": {
+    "schema": "repart_prescripteur_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurHopital]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurHopitalRelance]"
+    },
+    "version": "france"
+  },
+  "repart_prescripteur_hopital_produit_france": {
+    "schema": "repart_prescripteur_hopital_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPrescripteurHopitalProduit]",
+      "relance": "[CONTROLE].[con].[RepartPrescripteurHopitalProduitRelance]"
+    },
+    "version": "france"
+  },
+  "repart_pharmacie_hopital_uga": {
+    "schema": "repart_pharmacie_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieHopital]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieHopitalRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_pharmacie_hopital_produit_uga": {
+    "schema": "repart_pharmacie_hopital_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieHopitalProduit]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieHopitalProduitRelance]"
+    },
+    "version": "uga"
+  },
+  "repart_pharmacie_hopital_departement": {
+    "schema": "repart_pharmacie_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieHopital]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieHopitalRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_pharmacie_hopital_produit_departement": {
+    "schema": "repart_pharmacie_hopital_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieHopitalProduit]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieHopitalProduitRelance]"
+    },
+    "version": "departement"
+  },
+  "repart_pharmacie_hopital_france": {
+    "schema": "repart_pharmacie_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieHopital]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieHopitalRelance]"
+    },
+    "version": "france"
+  },
+  "repart_pharmacie_hopital_produit_france": {
+    "schema": "repart_pharmacie_hopital_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[RepartPharmacieHopitalProduit]",
+      "relance": "[CONTROLE].[con].[RepartPharmacieHopitalProduitRelance]"
+    },
+    "version": "france"
+  },
+  "travelling_etablissement_presentation": {
+    "schema": "travelling_etablissement",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingEtablissement]",
+      "relance": "[CONTROLE].[con].[TravellingEtablissementRelance]"
+    },
+    "version": "presentation"
+  },
+  "travelling_etablissement_produit_presentation": {
+    "schema": "travelling_etablissement_produit",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingEtablissementProduit]",
+      "relance": "[CONTROLE].[con].[TravellingEtablissementProduitRelance]"
+    },
+    "version": "presentation"
+  },
+  "travelling_etablissement_uga": {
+    "schema": "travelling_etablissement",
+    "table": {
+      "production": "[CONTROLE].[con].[TravellingEtablissement]",
+      "relance": "[CONTROLE].[con].[TravellingEtablissementRelance]"
+    },
+    "version": "uga"
+  },
+  "soxhebdo": {
+    "schema": "sox",
+    "table": {
+      "production": "[CONTROLE].[con].[Sox]",
+      "relance": "[CONTROLE].[con].[SoxRelance]"
+    },
+    "version": ""
+  },
+  "sox4": {
+    "schema": "sox",
+    "table": {
+      "production": "[CONTROLE].[con].[Sox]",
+      "relance": "[CONTROLE].[con].[SoxRelance]"
+    },
+    "version": "4"
+  },
+  "soxcol": {
+    "schema": "soxcol",
+    "table": {
+      "production": "[CONTROLE].[con].[Soxcol]",
+      "relance": "[CONTROLE].[con].[SoxcolRelance]"
+    },
+    "version": ""
+  },
+  "soxhcol": {
+    "schema": "soxcol",
+    "table": {
+      "production": "[CONTROLE].[con].[Soxcol]",
+      "relance": "[CONTROLE].[con].[SoxcolRelance]"
+    },
+    "version": ""
+  },
+  "soxhcol_national": {
+    "schema": "soxcol_national",
+    "table": {
+      "production": "[CONTROLE].[con].[SoxColNational]",
+      "relance": "[CONTROLE].[con].[SoxColNationalRelance]"
+    },
+    "version": ""
+  },
+  "soxseg2": {
+    "schema": "soxseg",
+    "table": {
+      "production": "[CONTROLE].[con].[SoxSeg]",
+      "relance": "[CONTROLE].[con].[SoxSegRelance]"
+    },
+    "version": "2"
+  },
+  "soc": {
+    "schema": "soc",
+    "table": {
+      "production": "[CONTROLE].[con].[soc]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "poidsj": {
+    "schema": "poidsj",
+    "table": {
+      "production": "[CONTROLE].[con].[Poidsj]",
+      "relance": "[CONTROLE].[con].[PoidsjRelance]"
+    },
+    "version": ""
+  },
+  "obsprix": {
+    "schema": "obsprix",
+    "table": {
+      "production": "[CONTROLE].[con].[Obsprix]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "signorm": {
+    "schema": "signorm",
+    "table": {
+      "production": "[CONTROLE].[con].[Signorm]",
+      "relance": "[CONTROLE].[con].[SignormRelance]"
+    },
+    "version": ""
+  },
+  "sognow": {
+    "schema": "sognow",
+    "table": {
+      "production": "[CONTROLE].[con].[sognow]",
+      "realnce":  "[CONTROLE].[con].[sognowRelance]"
+    },
+    "version": ""
+  },
+  "stocks": {
+    "schema": "stocks",
+    "table": {
+      "production": "[CONTROLE].[con].[Stocks]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "stockx": {
+    "schema": "stockx",
+    "table": {
+      "production": "[CONTROLE].[con].[Stockx]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "stocks_extrapoles": {
+    "schema": "stocks_extrapoles",
+    "table": {
+      "production": "[CONTROLE].[con].[StocksExtrapoles]",
+      "relance": ""
+    },
+    "version": ""
+  },
+  "orihebu6": {
+    "schema": "origin_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginUGA]",
+      "relance": "[CONTROLE].[con].[OriginUGARelance]"
+    },
+    "version": "6"
+  },
+  "orihebh6": {
+    "schema": "origin_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginHopital]",
+      "relance": "[CONTROLE].[con].[OriginHopitalRelance]"
+    },
+    "version": "6"
+  },
+  "orihebs6": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteRelance]"
+    },
+    "version": "6"
+  },
+  "orihebhs6": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": ""
+    },
+    "version": "6"
+  },
+  "orihebu7": {
+    "schema": "origin_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginUGA]",
+      "relance": "[CONTROLE].[con].[OriginUGARelance]"
+    },
+    "version": "7"
+  },
+  "orihebh7": {
+    "schema": "origin_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginHopital]",
+      "relance": "[CONTROLE].[con].[OriginHopitalRelance]"
+    },
+    "version": "7"
+  },
+  "orihebs7": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteRelance]"
+    },
+    "version": "7"
+  },
+  "orihebhs7": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": ""
+    },
+    "version": "7"
+  },
+  "sogsheb2": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteRelance]"
+    },
+    "version": "2"
+  },
+  "sogshopheb2": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": ""
+    },
+    "version": "2"
+  },
+  "origin8": {
+    "schema": "origin_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginUGA]",
+      "relance": "[CONTROLE].[con].[OriginUGARelance]"
+    },
+    "version": "8"
+  },
+  "sogs4": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteRelance]"
+    },
+    "version": "4"
+  },
+  "sogs2": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": ""
+    },
+    "version": "2"
+  },
+  "sogshop4": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteHopitalRelance]"
+    },
+    "version": "4"
+  },
+  "sogshop2": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": ""
+    },
+    "version": "2"
+  },
+  "originh6": {
+    "schema": "origin_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginHopital]",
+      "relance": ""
+    },
+    "version": "6"
+  },
+  "originh7": {
+    "schema": "origin_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginHopital]",
+      "relance": ""
+    },
+    "version": "7"
+  },
+  "originh8": {
+    "schema": "origin_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginHopital]",
+      "relance": "[CONTROLE].[con].[OriginHopitalRelance]"
+    },
+    "version": "8"
+  },
+  "origins6": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": ""
+    },
+    "version": "6"
+  },
+  "origins7": {
+    "schema": "origin_specialite",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": ""
+    },
+    "version": "7"
+  },
+  "origins8": {
+    "schema": "origin_specialite",
+    "table": {
+      "production" : "[CONTROLE].[con].[OriginSpecialite]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteRelance]"
+    },
+    "version": "8"
+  },
+  "originhs6": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": ""
+    },
+    "version": "6"
+  },
+  "originhs7": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": ""
+    },
+    "version": "7"
+  },
+  "originhs8": {
+    "schema": "origin_specialite_hopital",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginSpecialiteHopital]",
+      "relance": "[CONTROLE].[con].[OriginSpecialiteHopitalRelance]"
+    },
+    "version": "8"
+  },
+  "origin6": {
+    "schema": "origin_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginUGA]",
+      "relance": ""
+    },
+    "version": "6"
+  },
+  "origin7": {
+    "schema": "origin_uga",
+    "table": {
+      "production": "[CONTROLE].[con].[OriginUGA]",
+      "relance": ""
+    },
+    "version": "7"
+  },
+  "rfsotc": {
+    "schema": "rfsotc",
+    "table": {
+      "production": "[CONTROLE].[con].[RFSOTC]",
+      "relance": "[CONTROLE].[con].[RFSOTCRelance]"
+    },
+    "version": ""
+  },
+  "sog": {
+    "schema": "sog",
+    "table": {
+      "production": "[CONTROLE].[con].[SOG]",
+      "relance": ""
+    },
+    "version": "2"
+  }
+}

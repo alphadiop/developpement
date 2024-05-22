@@ -1,0 +1,5 @@
+{
+  "is_table_partitionned": "sql_files/is_table_partitionned.sql",
+  "is_new_range": "sql_files/is_new_range.sql",
+  "get_boundary_values": "sql_files/get_boundary_values.sql"
+}

@@ -1,0 +1,100 @@
+{
+  "0": {
+    "univers_paneliste": [
+      "achats",
+      "pmgtg",
+      "sox",
+      "obsprix",
+      "poidsj"
+    ],
+    "referentiel_presentations": [
+      "achats",
+      "ventes",
+      "pmgtg",
+      "obsprix",
+      "signorm"
+    ]
+  },
+  "1": {
+    "achats": [
+      "pmgtg",
+      "signorm"
+    ],
+    "ventes": [
+      "rfsotc",
+      "sox",
+      "obsprix",
+      "poidsj"
+    ],
+    "pmgtg": [
+      "sox"
+    ]
+  },
+  "2": {
+    "rfsotc": [
+      "travelling"
+    ],
+    "sox": [
+      "signorm",
+      "sognow",
+      "orihebu6",
+      "sogsheb2",
+      "sogshopheb2"
+    ],
+    "obsprix": [],
+    "poidsj": [
+      "sognow"
+    ]
+  },
+  "3": {
+    "travelling_uga": [
+      "orihebu6",
+      "orihebu7"
+    ],
+    "repart_pharmacie": [
+      "sogsheb2"
+    ],
+    "repart_pharmacie_hopital": [
+      "sogshopheb2"
+    ],
+    "repart_prescripteur": [
+      "orihebs6",
+      "orihebs7"
+    ],
+    "repart_prescripteur_hopital": [
+      "orihebhs6",
+      "orihebhs7"
+    ],
+    "travelling_etablissement": [
+      "orihebh6",
+      "orihebh7"
+    ],
+    "signorm": [
+      "orihebu7"
+    ],
+    "sognow": [],
+    "sig_relocalise": []
+  },
+  "4": {
+    "sogsheb2": [],
+    "sogshopheb2": [],
+    "orihebu6": [
+      "orihebh6",
+      "orihebs6",
+      "orihebhs6"
+    ],
+    "orihebu7": [
+      "orihebh7",
+      "orihebs7",
+      "orihebhs7"
+    ]
+  },
+  "5": {
+    "orihebh6": [],
+    "orihebs6": [],
+    "orihebhs6": [],
+    "orihebh7": [],
+    "orihebs7": [],
+    "orihebhs7": []
+  }
+}

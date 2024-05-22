@@ -1,0 +1,7 @@
+{
+  "production_globale": "[PRODUCTION].[prod].[ProductionGlobale]",
+  "production_niveau": "[PRODUCTION].[prod].[ProductionNiveau]",
+  "production_moteur": "[PRODUCTION].[prod].[ProductionMoteur]",
+  "production_table": "[PRODUCTION].[prod].[ProductionTable]",
+  "depot_sognow": "[PRODUCTION].[dpt].[DepotSognow]"
+}

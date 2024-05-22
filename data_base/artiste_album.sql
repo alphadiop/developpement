@@ -1,0 +1,1 @@
+ SELECT nom,titre FROM albums a JOIN artiste ar ON a.artiste_id = ar.artiste_id;

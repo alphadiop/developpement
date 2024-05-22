@@ -1,0 +1,61 @@
+{% load static%}
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceuil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main/style.css'%}">
+
+</head>
+<body>
+    <h1> Restaurant</h1>
+    <h2> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 90 Avenue des Alouettes <br> Parentis</h2>
+    <div class="cover">
+        <h3> <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> Cuisine Traditionnelle</h3>
+        <div class="position_button">
+            <a class="contact-button" href="tel:+33600000000"><img  src=" {% static 'main/images/icon_phone.png' %}">Réserver </a>
+        </div>
+    </div>
+
+
+    <div class="infos">
+        <h4>Menu</h4>
+
+        <p>Dégustez une cuisine faite maison par le chef .</p>
+        <div >
+            <a class="menu-button"  href="{% url 'menu:index' %}"> voir le menu</a>
+        </div>
+
+        <h4>Horaire</h4>
+        <p>Du lundi au Samedi</p>
+        <p>Du Au déjeuner à partir de 12h</p>
+        <p>DuAu dîner à partir de 19h.</p>
+
+        <h4>Réservations</h4>
+        <p>Pour toutes réservations,</p>
+        <p>ou demande spéciale</p>
+        <p>par téléphone au :  <a class="phone_numbers" href="tel:+33600000000">06 00 00 00 00</a>  .</p>
+
+    </div>
+        <div>
+            <h5>Le Restaurant</h5>
+            <p class="Infos_restaurant"> situé au coeur des Landes<br>
+                au 90 avenue des Alouettes<br>
+                dans le village de Parentis-En-Born</p>
+
+            <div style="margin-left:8%;margin-top:18px;">
+                <a   href=""><img  src=" {% static 'main/images/icons_facebook.png' %}"> </a>
+                <a href=""><img  src=" {% static 'main/images/icon_instagram.png' %}"> </a>
+            </div>
+
+        </div>
+
+
+
+</body>
+</html>

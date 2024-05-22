@@ -1,0 +1,3 @@
+Moteur,Table,Table_STAT
+calls_ventes,calls,[STAT].[dbo].[CallsVentes]
+calls_ventes,refus,[STAT].[dbo].[CallsRefus]

@@ -1,0 +1,70 @@
+{
+  "orihebu6": [
+    "soxhebdo",
+    "travelling_uga_uga",
+    "travelling_uga_departement",
+    "travelling_uga_france",
+    "travelling_uga_produit_uga",
+    "travelling_uga_produit_departement",
+    "travelling_uga_produit_france"
+  ],
+  "orihebs6": [
+    "orihebu6",
+    "repart_prescripteur_uga",
+    "repart_prescripteur_departement",
+    "repart_prescripteur_france",
+    "repart_prescripteur_produit_uga",
+    "repart_prescripteur_produit_departement",
+    "repart_prescripteur_produit_france"
+  ],
+  "orihebh6": [
+    "orihebu6",
+    "travelling_etablissement_presentation",
+    "travelling_etablissement_uga",
+    "travelling_etablissement_produit_presentation"
+  ],
+  "orihebhs6":  [
+    "orihebu6",
+    "repart_prescripteur_hopital_uga",
+    "repart_prescripteur_hopital_departement",
+    "repart_prescripteur_hopital_france",
+    "repart_prescripteur_hopital_produit_uga",
+    "repart_prescripteur_hopital_produit_departement",
+    "repart_prescripteur_hopital_produit_france"
+  ],
+  "orihebu7": [
+    "signorm",
+    "travelling_uga_uga",
+    "travelling_uga_departement",
+    "travelling_uga_france",
+    "travelling_uga_produit_uga",
+    "travelling_uga_produit_departement",
+    "travelling_uga_produit_france"
+  ],
+  "orihebs7": [
+    "orihebu7",
+    "repart_prescripteur_uga",
+    "repart_prescripteur_departement",
+    "repart_prescripteur_france",
+    "repart_prescripteur_produit_uga",
+    "repart_prescripteur_produit_departement",
+    "repart_prescripteur_produit_france"
+  ],
+  "orihebh7": [
+    "orihebu7",
+    "travelling_etablissement_presentation",
+    "travelling_etablissement_uga",
+    "travelling_etablissement_produit_presentation"
+  ],
+  "orihebhs7": [
+    "orihebu7",
+    "repart_prescripteur_hopital_uga",
+    "repart_prescripteur_hopital_departement",
+    "repart_prescripteur_hopital_france",
+    "repart_prescripteur_hopital_produit_uga",
+    "repart_prescripteur_hopital_produit_departement",
+    "repart_prescripteur_hopital_produit_france"
+  ]
+}
+
+

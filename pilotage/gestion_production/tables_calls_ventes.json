@@ -1,0 +1,4 @@
+{
+  "production_calls_ventes": "[PRODUCTION].[prod].[ProductionCallsVentes]",
+  "production_calls_ventes_tables": "[PRODUCTION].[prod].[ProductionCallsVentesTables]"
+}

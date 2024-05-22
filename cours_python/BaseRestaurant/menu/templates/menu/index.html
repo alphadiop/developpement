@@ -1,0 +1,110 @@
+{% load static %}
+<html lang="fr">
+    <head>
+        <title>Menu Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{% static 'menu/style.css'%}">
+    </head>
+    <body>
+      <h1>Le  Restaurant</h1>
+      <div>
+            <img class="logo" src=" {% static 'menu/images/restaurant_orange.png' %}">
+      </div>
+      <div class="separateur"></div>
+        <div class="ensemble">
+
+            <div class="section">
+                <h2>Entrée</h2>
+                {% for entree in entrees %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{entree.nom }}</span>
+                <span class="prix"> {{entree.prix |floatformat:2}}€</span>
+                <span class="commentaire">{{entree.ingredient }}</span>
+                <span class="origin">{{entree.origin_viande  }}</span>
+                  {%endfor%}
+            </div>
+
+
+
+            <div class="section">
+                <h2>Plats</h2>
+                {% for plat in plats %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{plat.nom }}</span>
+                <span class="prix"> {{plat.prix |floatformat:2}}€</span>
+                <span class="commentaire">{{plat.ingredient }}</span>
+                <span class="origin">{{plat.origin_viande  }}</span>
+                  {%endfor%}
+            </div>
+
+            <div class="section">
+                <h2>Suggestions Plats</h2>
+                {% for suggestion_plat in suggestions_plats %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{suggestion_plat.nom }} </span>
+                <span class="prix"> {{suggestion_plat.prix |floatformat:2}}€</span>
+                <span class="commentaire">{{suggestion_plat.ingredient }}</span>
+                <span class="origin">{{suggestion_plat.origin_viande  }}</span>
+                  {%endfor%}
+            </div>
+
+             <div class="section">
+                <h2>Desserts</h2>
+                {% for dessert in desserts %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{dessert.nom }}</span>
+                <span class="prix"> {{dessert.prix |floatformat:2}}€</span>
+                <span class="commentaire">{{dessert.ingredient }}</span>
+                <span class="origin">{{dessert.origin_viande  }}</span>
+                  {%endfor%}
+            </div>
+
+            <div class="section">
+                <h2>Enfants</h2>
+                {% for prix_enfant in prix_enfants %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{prix_enfant.nom_et_ou_prix }}</span>
+                <span class="prix"> {{prix_enfant.prix |floatformat:2}}€</span>
+                <span class="commentaire">{{prix_enfant.ingredient }}</span>
+                <span class="origin">{{prix_enfant.origin_viande  }}</span>
+                  {%endfor%}
+            </div>
+
+            <div class="section">
+                <h2></h2>
+                {% for plat_enfant in plats_enfants %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{plat_enfant.nom_et_ou_prix }}</span>
+                <span class="commentaire">{{plat_enfant.ingredient }}</span>
+                <span class="origin">{{plat_enfant.origin_viande  }}</span>
+                  {%endfor%}
+
+            </div>
+
+            <div class="section_bottom">
+                <h3 style="color:#ff665E">Desserts</h3>
+                {% for desserts_enfant in desserts_enfants %}
+                <div  class="separateur_2"></div>
+                <span class="nom">{{desserts_enfant.nom_et_ou_prix }}</span>
+                <span class="commentaire">{{desserts_enfant.ingredient }}</span>
+                <span class="origin">{{desserts_enfant.origin_viande  }}</span>
+                  {%endfor%}
+
+            </div>
+    </div>
+
+            <div class="frame_position">
+                    <a href="{% url 'main:index' %}"> Infos</a>
+                    <a href="{% url 'menu:index' %}"> menu</a>
+                    <a href="{% url 'aperitif:index' %}"> Apéritifs</a>
+                    <a href="{% url 'vin:index' %}"> Vins</a>
+                    <a href="{% url 'digestif:index' %}"> Digestifs</a>
+            </div>
+
+
+
+
+    </body>
+
+</html>

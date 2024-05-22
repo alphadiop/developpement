@@ -1,0 +1,161 @@
+:root{
+  --hauteur-menu: 60px;
+  --color1:#ff665E;
+
+}
+body{
+    background-color:var(--color1);
+    margin-left:0;
+    margin-right:0;
+
+
+
+}
+h1{
+    text-align:center;
+    color:white;
+    font-size:55px;
+}
+
+h2{
+    text-align:center;
+    color:white;
+    font-size:16px;
+    font-family: Arial, sans-serif;
+}
+div.cover{
+   height:360px;
+   position:relative;
+   background: url("images/interieur_restaurant.jpg" )no-repeat  center/cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left:8%;
+  margin-right:8%;
+  border-radius: 30px 30px 0px 0px;
+
+
+}
+
+h3{
+    text-align:center;
+    color:white;
+    font-size:40px;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+h4{
+    font-site:16px;
+    font-family:Arial,sans serif;
+    color:black;
+    margin-left:20px;
+    padding-top:20px;
+    margin-top:0;
+    margin-bottom:0;
+
+
+}
+h5{
+    color:white;
+    font-size:28px;
+    font-family:georgia,sans-serif;
+    margin-left:8%;
+    margin-right:8%;
+    margin-bottom:0;
+    margin-top:26px;
+}
+
+div.position_button{
+    text-align:center;
+    margin-top:200px;
+
+}
+a.contact-button{
+    color:var(--color1);
+    font-size:24px;
+    font-family:helvetica;
+    font-weight:bold;
+    border:3px solid white;
+    background-color:white;
+    padding:10px 25px;
+    text-decoration:none;
+    margin-top: 18px;
+
+
+}
+div.infos{
+    display:block;
+    position:relative;
+    border-radius:0px 0px 30px 30px;
+    background-color:white;
+    height:360px;
+    margin-left:8%;
+    margin-right:8%;
+
+
+}
+p{
+    margin-top:8px;
+    margin-bottom:0;
+    margin-left:15px;
+    font-family:Arial,sans serif;
+}
+
+a.phone_numbers{
+    color:black;
+    text-decoration:none;
+}
+
+
+a.menu-button{
+    color:var(--color1);
+    margin-left:8%;
+    margin-left:20px;
+    text-decoration:none;
+
+}
+
+
+p.Infos_restaurant{
+    color:white;
+    font-family:georgia,sans-serif;
+    margin-left:8%;
+    font-size:16px;
+}
+div.barre_fixe{
+    height:60px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #E0E5EF;
+}
+
+/* -----------------For mobile <=768:---------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    div.infos{
+        height:380px;
+
+}
+    div.cover{
+        height:300px;
+}
+   div.position_button{
+        margin-top:130px;
+}
+    a.contact-button{
+        color:var(--color1);
+        font-size:16px;
+        font-family:helvetica;
+        font-weight:bold;
+        border:3px solid white;
+        background-color:white;
+        padding:5px 12px;
+        text-decoration:none;
+        margin-top: 18px;
+
+
+}
+}
+
+

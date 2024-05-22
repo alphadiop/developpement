@@ -1,0 +1,73 @@
+{
+    "0": {
+        "univers_paneliste": [
+            "achats",
+            "pmgtg",
+            "soc",
+            "sog"
+        ],
+        "referentiel_presentations": [
+            "achats",
+            "ventes",
+            "pmgtg",
+            "soc",
+            "sog",
+            "signorm"
+        ]
+    },
+    "1": {
+        "achats": [
+            "pmgtg",
+            "soc",
+            "signorm"
+        ],
+        "ventes": [
+            "soc"
+        ]
+    },
+    "2": {
+        "soc": [
+            "sog"
+        ]
+    },
+    "3": {
+        "sog": [
+            "signorm",
+            "origin6",
+            "sogs2",
+            "sogshop2"
+        ]
+    },
+    "4": {
+        "signorm": [
+            "origin7"
+        ],
+        "pdv_indic": [
+            "pdv_prio"
+        ]
+    },
+    "5": {
+        "origin6": [
+            "origins6",
+            "originh6",
+            "originhs6"
+        ],
+        "sogs2": [],
+        "sogshop2": [],
+        "origin7": [
+            "origins7",
+            "originh7",
+            "originhs7"
+        ],
+        "pdv_prio": []
+    },
+    "6": {
+        "origins6": [],
+        "originh6": [],
+        "originhs6": [],
+        "origins7": [],
+        "originh7": [],
+        "originhs7": [],
+        "sig_relocalise": []
+    }
+}

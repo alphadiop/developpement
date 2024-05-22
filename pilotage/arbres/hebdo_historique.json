@@ -1,0 +1,25 @@
+{
+    "0": {
+        "achats": [
+            "signorm"
+        ]
+    },
+    "1": {
+        "signorm": [
+            "orihebu7"
+        ]
+    },
+    "2": {
+        "orihebu7": [
+            "orihebh7",
+            "orihebs7",
+            "orihebhs7"
+        ]
+    },
+    "3": {
+        "orihebs7": [],
+        "orihebh7": [],
+        "orihebhs7": [
+        ]
+    }
+}

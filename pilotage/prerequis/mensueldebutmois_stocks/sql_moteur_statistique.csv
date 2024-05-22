@@ -1,0 +1,5 @@
+Periodicite,Moteur,Source,SourcePeriodicite,Profondeur,Concatenation
+mensueldebutmois,stocks,achats,mensueldebutmois,1,0
+mensueldebutmois,stocks_extrapoles,univers,mensueldebutmois,1,0
+mensueldebutmois,stocks_extrapoles,paneliste,mensueldebutmois,1,0
+mensueldebutmois,stocks_extrapoles,pmgtg,hebdo,0,1

@@ -1,0 +1,58 @@
+{
+  "0": {
+    "univers_paneliste": [
+      "sox"
+    ],
+    "referentiel_presentations": [
+      "stocks"
+    ],
+    "achats": [
+    ]
+  },
+  "1": {
+    "ventes": [
+      "sox"
+    ]
+  },
+  "2": {
+    "travelling_uga": [
+      "origin8"
+    ],
+    "repart_prescripteur": [
+      "origins8"
+    ],
+    "repart_prescripteur_hopital": [
+      "originhs8"
+    ],
+    "repart_pharmacie": [
+      "sogs4"
+    ],
+    "repart_pharmacie_hopital": [
+      "sogshop4"
+    ],
+    "travelling_etablissement": [
+      "originh8"
+    ],
+    "sox": [
+      "origin8",
+      "sogs4",
+      "sogshop4"
+    ]
+  },
+  "3": {
+    "origin8": [
+      "originh8",
+      "origins8",
+      "originhs8"
+    ],
+    "sogs4": [],
+    "sogshop4": []
+  },
+  "4": {
+    "originh8": [],
+    "origins8": [],
+    "originhs8": [],
+    "sognow": [],
+    "sig_relocalise": []
+  }
+}

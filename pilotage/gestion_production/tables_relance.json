@@ -1,0 +1,10 @@
+{
+  "relance_gestion": "[PRODUCTION].[prod].[RelanceGestion]",
+  "relance_globale": "[PRODUCTION].[prod].[RelanceGlobale]",
+  "relance_niveau": "[PRODUCTION].[prod].[RelanceNiveau]",
+  "relance_moteur": "[PRODUCTION].[prod].[RelanceMoteur]",
+  "relance_table": "[PRODUCTION].[prod].[RelanceTable]",
+  "sognow_global": "[PRODUCTION].[prod].[SognowGlobal]",
+  "sognow_moteur": "[PRODUCTION].[prod].[SognowMoteur]",
+  "sognow_table": "[PRODUCTION].[prod].[SognowTable]"
+}

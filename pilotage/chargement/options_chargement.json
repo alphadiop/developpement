@@ -1,0 +1,57 @@
+{
+  "univers": {
+    "encodings": {
+      "src": "ISO 8859-1",
+      "dst": "ISO 8859-1"
+    },
+    "code_page": "\u0027ACP\u0027"
+  },
+  "travelling_uga_produit_uga": {
+    "format": "json"
+  },
+  "travelling_uga_produit_departement": {
+    "format": "json"
+  },
+  "travelling_uga_produit_france": {
+    "format": "json"
+  },
+  "repart_prescripteur_produit_uga": {
+    "format": "json"
+  },
+  "repart_prescripteur_produit_departement": {
+    "format": "json"
+  },
+  "repart_prescripteur_produit_france": {
+    "format": "json"
+  },
+  "repart_pharmacie_produit_uga": {
+    "format": "json"
+  },
+  "repart_pharmacie_produit_departement": {
+    "format": "json"
+  },
+  "repart_pharmacie_produit_france": {
+    "format": "json"
+  },
+  "repart_prescripteur_hopital_produit_uga": {
+    "format": "json"
+  },
+  "repart_prescripteur_hopital_produit_departement": {
+    "format": "json"
+  },
+  "repart_prescripteur_hopital_produit_france": {
+    "format": "json"
+  },
+  "repart_pharmacie_hopital_produit_uga": {
+    "format": "json"
+  },
+  "repart_pharmacie_hopital_produit_departement": {
+    "format": "json"
+  },
+  "repart_pharmacie_hopital_produit_france": {
+    "format": "json"
+  },
+  "travelling_etablissement_produit_presentation": {
+    "format": "json"
+  }
+}

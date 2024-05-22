@@ -1,0 +1,8 @@
+Periodicite,Moteur,Fichier,Extension
+mensueldebutmois,stocks,ph_criteres,csv
+mensueldebutmois,stocks,qps_ignore,csv
+mensueldebutmois,stocks,tr_achdir,csv
+mensueldebutmois,stocks,tr_ca,csv
+mensueldebutmois,stocks,tr_urbain,csv
+mensueldebutmois,stocks,cip_supp,csv
+mensueldebutmois,stocks,liste_noire_stocks,csv

@@ -1,0 +1,57 @@
+import  os
+imprimer(os. getcwd())
+imprimer(os. listdir(os. getcwd())
+pip list
+conda list
+conda update noms_paquets
+conda update conda
+conda remove noms_paquets
+
+pip freeze > requirements.txt : Installer des dépendances à partir d’un fichier requirement.txt:
+conda env list :  Lister l'ensemble des environnements disponibles:  
+conda create -n mon_environement python=3.9
+conda create -n [djangoenv] python=3.7.4
+conda activate djangoenv
+conda list -n djangoenv :Lister les packages (et ses dépendances) installés dans un environnement
+conda deactivate
+conda install
+pip uninstall
+
+pip freeze
+python -m pip install -U Django
+python -m pip install --upgrade SomePackage
+python -m pip install -U pip
+
+python -m django --version
+django-admin startproject monsite
+cd monsite
+django-admin startapp news
+
+python manage.py makemigrations
+python manage.py migrate
+
+protocole HTTP
+python manage.py runserver
+
+conda env remove -n djangoenv (supprime l'environnement testenv1) 
+conda uninstall -n djangoenv  matplotlib (supprime le package matplotlib de testenv2)
+conda uninstall matplotlib (idem, mais après avoir "activé" testenv2)
+
+https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django/4631113-ajoutez-une-vue
+https://docs.djangoproject.com/en/3.0/ref/templates/builtins/#built-in-filter-reference
+https://www.tutorialspoint.com/django/django_generic_views.htm
+https://www.tutorialspoint.com
+https://www.django-rest-framework.org
+
+https://python.doctor/page-editeurs-python-gratuits-payants-ide 
+Editeur de texte
+PyCharm est le meilleur IDE tout simplement. 
+
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction
+https://www.programink.com/django-tutorial/django-authentication.html
+https://github.com/django-import-export/django-import-export/tree/main/import_export/templates/admin/import_export
+https://zestedesavoir.com/tutoriels/598/developpez-votre-site-web-avec-le-framework-django/263_premiers-pas/1524_les-formulaires/
+https://www.djangoproject.com/start/
+https://docs.djangoproject.com/fr/3.2/ref/templates/
+https://python.doctor/page-database-data-base-donnees-query-sql-mysql-postgre-sqlite

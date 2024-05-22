@@ -1,0 +1,10 @@
+{
+  "0": {
+    "stocks": [
+      "stocks_extrapoles"
+    ]
+  },
+  "1": {
+    "stocks_extrapoles": []
+  }
+}

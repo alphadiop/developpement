@@ -1,0 +1,27 @@
+{% load static %}
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Menu Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'alcool/style.css'%}">
+</head>
+<body>
+    <h1>Le  Restaurant</h1>
+    <div>
+        <img class="logo" src=" {% static 'alcool/images/restaurant_orange.png' %}">
+    </div>
+
+        <div class="separateur"></div>
+{%block content %} {% endblock content %}
+        <div class="frame_position">
+            <a href="{% url 'main:index' %}"> Info</a>
+            <a href="{% url 'menu:index' %}"> Menu</a>
+            <a href="{% url 'alcool:index' %}"> Apéritif et Vins</a>
+        </div>
+
+
+</body>
+</html>

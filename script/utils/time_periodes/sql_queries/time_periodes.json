@@ -1,0 +1,6 @@
+{
+  "get_periodes": "sql_files/get_periodes.sql",
+  "get_semaines_mois": "sql_files/get_semaines_mois.sql",
+  "get_range_date": "sql_files/get_range_date.sql",
+  "get_cle_mois_annee": "sql_files/get_cle_mois_annee.sql"
+}

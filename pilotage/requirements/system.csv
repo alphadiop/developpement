@@ -1,0 +1,12 @@
+Language,Library,Requirement
+SQL,driver,ODBC Driver 13 for SQL Server
+conda,distribution,3.18.9
+python,distribution,3.7.7
+python,sqlparse,0.3.0
+python,rpy2,2.9.4
+python,tzlocal,2.0.0
+python,tabulate,0.8.3
+python,unidecode,1.2.0
+python,boto3,1.18.11
+R,distribution,3.6.1
+R,icarus,0.3.1
